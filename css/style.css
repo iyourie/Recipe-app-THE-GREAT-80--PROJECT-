@@ -1,0 +1,81 @@
+* {
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+body {
+    height: 90vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+section input {
+    width: 380px;
+    height: 20px;
+    margin-left: 50px;
+}
+
+section span {
+    cursor: pointer;
+    align-self: center;
+    margin-left: 6px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    color: orangered;
+}
+
+section span:hover {
+    color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main aside {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+main aside h1 {
+    text-align: center;
+    color: orangered;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+main aside h6 {
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+    text-align: center;
+}
+
+.width {
+    width: 200px;
+}
+
+main article {
+    width: 400px;
+}
+
+article h3 {
+    color: orangered;
+    text-decoration: underline;
+    display: none;
+}
